@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <title>Responsive Navbar</title> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+     <style>
+
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.nav-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+     </style>
+</head>
+<body>
+
+    <div class="slider-container">
+  <button class="nav-button" id="prevBtn">❮</button>
+  <div class="slider" id="slider">
+    <img src="image/1 (1).webp" class="slide" />
+    <img src="image/2 (1).webp" class="slide" />
+    <img src="image/3 (1).webp" class="slide" />
+    <img src="img4.jpg" class="slide" />
+    <img src="img5.jpg" class="slide" />
+    <img src="img6.jpg" class="slide" />
+  </div>
+  <button class="nav-button" id="nextBtn">❯</button>
+</div>
+    <!-- <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">DesignX</label>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <section>
+        <img src="image/blue.jpg">
+    </section> -->
+</body>
+<script>
+   const slider = document.getElementById("slider");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+let currentIndex = 0;
+const visibleImages = 3;
+const totalImages = document.querySelectorAll(".slide").length;
+
+function updateSlider() {
+  const offset = currentIndex * 200; // 200px is the width of each image
+  slider.style.transform = `translateX(-${offset}px)`;
+}
+
+prevBtn.addEventListener("click", () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSlider();
+  }
+});
+
+nextBtn.addEventListener("click", () => {
+  if (currentIndex < totalImages - visibleImages) {
+    currentIndex++;
+    updateSlider();
+  }
+}); 
+</script>
+</html>

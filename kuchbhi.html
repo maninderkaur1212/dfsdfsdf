@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transform Scale Effects Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(45deg, #1e90ff, #00ff99);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: transform 0.4s ease;
+    }
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    /* 1️⃣ Basic scale */
+    .scale1:hover {
+      transform: scale(1.5);
+    }
+
+    /* 2️⃣ Scale X */
+    .scale2:hover {
+      transform: scaleX(2);
+    }
+
+    /* 3️⃣ Scale Y */
+    .scale3:hover {
+      transform: scaleY(0.5);
+    }
+
+    /* 4️⃣ Different X and Y */
+    .scale4:hover {
+      transform: scale(1.5, 0.8);
+    }
+
+    /* 5️⃣ Scale with origin */
+    .scale5 {
+      transform-origin: top left;
+    }
+    .scale5:hover {
+      transform: scale(1.4);
+    }
+
+    /* 6️⃣ Scale with hover smooth effect */
+    .scale6:hover {
+      transform: scale(1.3);
+    }
+
+    /* 7️⃣ Animated scaling (keyframes) */
+    @keyframes zoomEffect {
+      0%   { transform: scale(1); }
+      50%  { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+    .scale7 {
+      animation: zoomEffect 2s infinite;
+    }
+
+    /* 8️⃣ Combined with rotation and translation */
+    .scale8:hover {
+      transform: scale(1.2) rotate(10deg) translateX(20px);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>CSS Transform Scale Effects</h2>
+
+  <div class="box scale1">1. Basic</div>
+  <div class="box scale2">2. ScaleX</div>
+  <div class="box scale3">3. ScaleY</div>
+  <div class="box scale4">4. X & Y</div>
+  <div class="box scale5">5. Origin</div>
+  <div class="box scale6">6. Hover</div>
+  <div class="box scale7">7. Animate</div>
+  <div class="box scale8">8. Combo</div>
+
+</body>
+</html>
