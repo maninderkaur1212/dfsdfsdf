@@ -1,0 +1,241 @@
+[1mdiff --git a/hot deals.html b/hot deals.html[m
+[1mindex 2a73c1f..1f845a7 100644[m
+[1m--- a/hot deals.html[m	
+[1m+++ b/hot deals.html[m	
+[36m@@ -114,7 +114,57 @@[m
+         </div>[m
+ [m
+     </div>[m
+[32m+[m	[32m<footer>[m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32m<div class="footer-col">[m[41m[m
+[32m+[m			[32m<h3>Quick Links</h3>[m[41m[m
+[32m+[m			[32m<ul>[m[41m[m
+[32m+[m				[32m<li><a href="about.html">About Us</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="service.html">Our Services</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="testimonials.html">Our Clients</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="hot deals.html">Hot Deals</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="our-gallery.html">Our Gallery</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="contact.html">Contact us</a></li>[m[41m[m
+[32m+[m			[32m</ul>[m[41m[m
+[32m+[m		[32m</div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32m<div class="footer-col">[m[41m[m
+[32m+[m			[32m<h3>More Links</h3>[m[41m[m
+[32m+[m			[32m<ul>[m[41m[m
+[32m+[m				[32m<li><a href="">Terms & Conditions</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="">Privacy policy</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="">Disclaimer</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="">Legal notice</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="">Cookie</a></li>[m[41m[m
+[32m+[m			[32m</ul>[m[41m[m
+[32m+[m		[32m</div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32m<div class="footer-col">[m[41m[m
+[32m+[m			[32m<h3>Social Links</h3>[m[41m[m
+[32m+[m			[32m<ul>[m[41m[m
+[32m+[m				[32m<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a> </li>[m[41m[m
+[32m+[m				[32m<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a> </li>[m[41m[m
+[32m+[m				[32m<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>[m[41m[m
+[32m+[m				[32m<li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a> </li>[m[41m[m
+[32m+[m			[32m</ul>[m[41m[m
+[32m+[m		[32m</div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m		[32m<div class="footer-col">[m[41m[m
+[32m+[m			[32m<h3>Contact Us</h3>[m[41m[m
+[32m+[m			[32m<ul>[m[41m[m
+[32m+[m				[32m<li><i class="fa-solid fa-phone"></i> (+91)-8799746544</li>[m[41m[m
+[32m+[m				[32m<li><i class="fa-solid fa-phone"></i> (+91)-8076151724</li>[m[41m[m
+[32m+[m				[32m<li><i class="fa-solid fa-envelope"></i> info@poojamoviecreations.com</li>[m[41m[m
+[32m+[m				[32m<li><i class="fa-solid fa-globe"></i> www.poojamoviecreations.com</li>[m[41m[m
+[32m+[m			[32m</ul>[m[41m[m
+[32m+[m		[32m</div>[m[41m[m
+[32m+[m	[32m</footer>[m[41m[m
+[32m+[m	[32m<div class="footer-bottom">[m[41m[m
+[32m+[m		[32m&copy; 2025 Pooja Movie Creations.All rights reserved.[m[41m[m
+[32m+[m	[32m</div>[m[41m[m
+[32m+[m[41m[m
+ [m
+ </body>[m
+[32m+[m[32m<script src="script.js"></script>[m[41m[m
+ [m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.css b/index.css[m
+[1mindex 76dd0b9..f5492b6 100644[m
+[1m--- a/index.css[m
+[1m+++ b/index.css[m
+[36m@@ -1498,7 +1498,7 @@[m [mhr {[m
+     margin: 0 auto;[m
+     margin: 10px;[m
+     border-radius: 10px;[m
+[31m-   [m
+[32m+[m[41m[m
+ }[m
+ [m
+ .tvad-images img {[m
+[36m@@ -2036,130 +2036,6 @@[m [mhr {[m
+ }[m
+ [m
+ [m
+[31m-[m
+[31m-[m
+[31m-/*.testimonial-try {[m
+[31m-    padding: 50px 30px;[m
+[31m-    color: black;[m
+[31m-    background-color: #e6dff0;[m
+[31m-    border: 1px solid #a994d1;[m
+[31m-    margin: 10px 10px 30px 10px;[m
+[31m-    border-radius: 10px;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting {[m
+[31m-    display: flex;[m
+[31m-    justify-content: space-between;[m
+[31m-    align-self: center;[m
+[31m-    border-radius: 20px;[m
+[31m-    transition: 0.3s ease;[m
+[31m-    padding: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 {[m
+[31m-    margin: 0 20px;[m
+[31m-    padding: 30px;[m
+[31m-    width: 50%;[m
+[31m-    background: linear-gradient(135deg, #211a33, #3b285c, #372357);[m
+[31m-    border-radius: 20px;[m
+[31m-    transition: 0.3s ease;[m
+[31m-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);[m
+[31m-    display: flex;[m
+[31m-    flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 h3 {[m
+[31m-    padding: 15px 0;[m
+[31m-    font-size: 15px;[m
+[31m-    color: #ffffff;[m
+[31m-    font-family: Arial, Helvetica, sans-serif;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 p {[m
+[31m-    font-size: 14px;[m
+[31m-    text-align: justify;[m
+[31m-    line-height: 1.6;[m
+[31m-    padding-top: 10px;[m
+[31m-    padding-bottom: 20px;[m
+[31m-    color: #ccc;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 .testimonial-icons {[m
+[31m-    font-size: 23px;[m
+[31m-    padding: 15px 0 0;[m
+[31m-    padding-top: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 .testimonial-icons a {[m
+[31m-    text-decoration: none;[m
+[31m-    color: #ccc;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-1 .testimonial-icons a:hover {[m
+[31m-    color: #ff9800;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting img {[m
+[31m-    width: 100%;[m
+[31m-    height: 200px;[m
+[31m-    border-radius: 20px;[m
+[31m-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 {[m
+[31m-    margin: 0 20px;[m
+[31m-    padding: 30px;[m
+[31m-    width: 50%;[m
+[31m-    background: linear-gradient(135deg, #211a33, #3b285c, #372357);[m
+[31m-    border-radius: 20px;[m
+[31m-    transition: 0.3s ease;[m
+[31m-    border: 1px solid white;[m
+[31m-    box-shadow: 0 4px 12px rgba(250, 244, 244, 0.25);[m
+[31m-    display: flex;[m
+[31m-    flex-direction: column;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2:hover {[m
+[31m-    transform: scale(1.1);[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 h3 {[m
+[31m-    padding: 15px 0;[m
+[31m-    font-size: 15px;[m
+[31m-    color: #ffffff;[m
+[31m-    font-family: Arial, Helvetica, sans-serif;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 p {[m
+[31m-    font-size: 14px;[m
+[31m-    text-align: justify;[m
+[31m-    line-height: 1.6;[m
+[31m-    padding-top: 10px;[m
+[31m-    padding-bottom: 20px;[m
+[31m-    color: #ccc;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 .testimonial-icons {[m
+[31m-    font-size: 23px;[m
+[31m-    padding: 15px 0 0;[m
+[31m-    padding-top: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 .testimonial-icons a {[m
+[31m-    text-decoration: none;[m
+[31m-    color: #ccc;[m
+[31m-}[m
+[31m-[m
+[31m-.testimonial-try .setting .card-2 .testimonial-icons a:hover {[m
+[31m-    color: #ff9800;[m
+[31m-}*/[m
+[31m-[m
+ .view-more-btn {[m
+     display: inline-block;[m
+     background-color: #febe00;[m
+[36m@@ -3018,7 +2894,6 @@[m [miframe {[m
+     }[m
+ [m
+     .our-gallery-heading3 {[m
+[31m-[m
+         width: 80%;[m
+         padding: 20px;[m
+         margin: 0 auto;[m
+[36m@@ -3080,30 +2955,6 @@[m [miframe {[m
+     }[m
+ [m
+ [m
+[31m-[m
+[31m-[m
+[31m-    /* .testimonial-try {[m
+[31m-        padding: 10px;[m
+[31m-    }[m
+[31m-[m
+[31m-    .testimonial-2 {[m
+[31m-        text-align: center;[m
+[31m-        background-color: white;[m
+[31m-        padding: 30px;[m
+[31m-        width: 80%;[m
+[31m-        border-radius: 15px;[m
+[31m-        margin: 0 auto;[m
+[31m-    }[m
+[31m-[m
+[31m-    .testimonial-try .setting {[m
+[31m-        display: block;[m
+[31m-        padding: 0;[m
+[31m-    }[m
+[31m-[m
+[31m-    .testimonial-try .setting .card-1 {[m
+[31m-        margin: 20px;
