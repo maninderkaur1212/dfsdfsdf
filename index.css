@@ -126,7 +126,7 @@ header .navbar {
 }
 
 .nav-logo h2 {
-    padding-top: 9px;
+    padding-top: 4px;
     color: #febe00;
     text-transform: uppercase;
     font-size: 20px;
@@ -1314,7 +1314,7 @@ hr {
 .pvr-head::after {
     content: "";
     display: block;
-    width: 33%;
+    width: 28%;
     height: 3px;
     background-color: #ff9800;
     margin-top: 5px;
@@ -1428,7 +1428,8 @@ hr {
 .card-btn {
     background-color: #bb9707;
     border: none;
-    padding: 10px 20px;
+    padding: 6px 12px;
+    font-size: 12px;
     border-radius: 2px;
     outline: none;
     font-weight: 500;
@@ -1995,9 +1996,7 @@ hr {
     padding-top: 20px;
     text-align: center;
     color: #fff;
-
 }
-
 
 .test-card-image {
     position: relative;
@@ -2944,8 +2943,6 @@ iframe {
     .card {
         width: 100%;
         height: 100%;
-
-
         margin: 0 auto;
         transition: 0.3s ease;
 
@@ -2955,7 +2952,6 @@ iframe {
         transform: scale(0.9);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-
 
     .but {
         text-align: center;
@@ -4389,7 +4385,7 @@ iframe {
     }
 
     .nav-logo h2 {
-        padding-top: 10px;
+        padding-top: 4px;
         font-size: 15px;
     }
 
@@ -4688,4 +4684,68 @@ iframe {
         margin: 15px;
 
     }
+}
+
+.service-cards {
+    background-color: #000;
+    height: 380px;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px #f5c54266;
+    border: 1px solid #f5c54266;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.service-cards:hover {
+    transform: scale(1.02);
+}
+
+
+.service-cards-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-cards-section img {
+    border-radius: 5%;
+    height: 160px;
+    width: 220px;
+}
+
+.service-cards-section h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10px;
+}
+
+.service-cards-section p {
+    color: #ccc;
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+
+.service-cards-section .btn {
+    margin-top: 20px;
+    padding: 6px 12px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #bb9707;
+    border: none;
+    border-radius: 2px;
+}
+
+.service-cards-section .btn:hover{
+     background-color: #c9a207;
+     cursor: pointer;
+}
+
+.service-cards-container{
+    display: flex;
+    justify-content: center;
+    gap:3%;
 }
